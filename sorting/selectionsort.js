@@ -8,7 +8,7 @@ function readLine() {
     return data[idx - 1].trim();
 } */
 
-
+// selection sort
 let arr = [5,10,24,12,0];
 let n = arr.length;
 for(let i=0;i<n-1;i++){
