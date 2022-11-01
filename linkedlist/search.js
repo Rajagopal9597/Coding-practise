@@ -40,6 +40,17 @@ class LinkedList{
 // ------------ DO NOT MANE ANY CHANGE ABOVE THIS LINE ---------
     search(key){
         // WRITE YOUR IMPLEMENTATION OF SEARCH HERE
+	    let temp = this.head;
+        while (temp.next != null) {
+            if (temp.key == key) {
+                return "True"
+            }
+            temp = temp.next;
+        }
+        if (temp.key == key) {
+            return "True"
+        }
+        return "False"
     }
 }        
 // ----------- DO NOT MAKE ANY CHANGES BELOW THIS LINE ---------
